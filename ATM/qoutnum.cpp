@@ -77,7 +77,7 @@ void QOutNum::on_determinebutton_clicked()
    else if(user->OutCount(expression) == 2)
        QMessageBox::information(this,"警告","余额不足");
    else if(user->OutCount(expression) == 3)
-       QMessageBox::information(this,"警告"," 取款失败,超过单笔存款上限");
+       QMessageBox::information(this,"警告","取款失败,超过单笔取款上限");
     else{
         QMessageBox::information(this,"警告","取款金额不符合要求");
     }

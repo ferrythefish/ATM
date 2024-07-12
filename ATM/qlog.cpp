@@ -12,6 +12,8 @@ QLog::QLog(QWidget *parent)
     QPalette palette=this->palette();
     palette.setBrush(QPalette::Window,QBrush(QPixmap(":/new/prefix1/image/back.jpg").scaled(this->size(),Qt::IgnoreAspectRatio,Qt::SmoothTransformation)));
     this->setPalette(palette);
+
+    this->setWindowIcon(QIcon(":/new/prefix1/image/alip7-kqrc3-001.ico"));
 }
 
 QLog::~QLog()
